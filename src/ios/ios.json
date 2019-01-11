@@ -1,0 +1,32 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-toastyplugin": {
+      "PACKAGE_NAME": "com.stanleyidsesis.toastyplugintest"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.stanleyidsesis.toastyplugintest"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [
+    {
+      "id": "cordova-plugin-toastyplugin.toastyPlugin",
+      "file": "plugins/cordova-plugin-toastyplugin/www/toastyplugin.js",
+      "pluginId": "cordova-plugin-toastyplugin",
+      "clobbers": [
+        "window.plugins.toastyPlugin"
+      ]
+    }
+  ],
+  "plugin_metadata": {
+    "cordova-plugin-toastyplugin": "0.0.1",
+    "cordova-plugin-whitelist": "1.3.3"
+  }
+}
